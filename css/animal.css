@@ -11,7 +11,7 @@
 /* Generic */
 .animal__body {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   position: fixed;
   align-items: flex-end;
   width: 100%;
