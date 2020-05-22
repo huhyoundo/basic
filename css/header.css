@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 46px;
+  padding: 0px 20px 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #f7f7f7;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1);
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header i {
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.header__back-btn i {
+  margin-left: 0px;
+}
